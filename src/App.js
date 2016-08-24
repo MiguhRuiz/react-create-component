@@ -15,7 +15,7 @@ class Name extends Component {
     return (
       <div className="App-sayname">
         <input type="name" className="input" placeholder="Tu nombre" onChange={this.changeName.bind(this)}/>
-        <p className="input-helper">Bienvenido {this.state.name}!</p>
+        <h2 className="input-helper">Bienvenido {this.state.name}!</h2>
       </div>
     );
   }
