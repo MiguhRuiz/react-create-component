@@ -5,7 +5,7 @@ import './App.css';
 class Name extends Component {
   constructor(props) {
     super(props)
-    this.state = {name: 'Tu nombre'}
+    this.state = {name: 'señor desconocido'}
   }
   changeName() {
     let n = document.getElementsByClassName('input')[0].value
